@@ -38,4 +38,10 @@ public class Home {
     @NotNull
     private int livingRoomCount;
 
+    public Home(double price, double houseSize, int roomCount, int livingRoomCount) {
+        this.price = price;
+        this.houseSize = houseSize;
+        this.roomCount = roomCount;
+        this.livingRoomCount = livingRoomCount;
+    }
 }
