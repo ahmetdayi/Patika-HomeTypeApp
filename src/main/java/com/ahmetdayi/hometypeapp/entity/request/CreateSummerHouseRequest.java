@@ -4,12 +4,13 @@ import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-
+import lombok.NoArgsConstructor;
 
 
 @Data
 @AllArgsConstructor
-public class CreateHomeRequest {
+@NoArgsConstructor
+public class CreateSummerHouseRequest {
 
     @NotNull
     private double price;
@@ -23,6 +24,4 @@ public class CreateHomeRequest {
 
     @NotNull
     private int livingRoomCount;
-
-
 }
