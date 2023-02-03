@@ -15,7 +15,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @Entity
-public class BaseHome {
+public abstract class BaseHome {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
